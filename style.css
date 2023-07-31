@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.frame-first {
+    height: 1000px;
+    background: linear-gradient(to top left, rgb(25, 25, 45, 0.7), rgb(125, 191, 114, 1));
+}
+
+.quation-text {
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 310px;
+    text-shadow: 0px 0px 7px #22ECF3;
+}
+
+.text-second {
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 0px 0px 7px #22ECF3;
+}
+
+.reclam-text {
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 57px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: -80px;
+    text-shadow: 0px 0px 7px #22ECF3;
+}
+
+.btn-first {
+    font-family: 'Jomhuria', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 7px #22ECF3;
+    font-size: 100px;
+    font-weight: 400;
+    background-color: rgba(255, 230, 0, 1);
+    width: 444px;
+    padding: 25px 27px;
+    margin-left: 520px;
+    position: absolute;
+    top: 90%;
+    padding-top: 50px;
+}
+
+
+
+
+
+@media(max-width: 930px) {
+    .btn-first {
+        margin-left: 260px;
+    }
+}
+
+
+
+@media(max-width: 725px) {
+    .btn-first {
+        margin-left: 150px;
+    }
+
+    .quation-text {
+        font-size: 41px;
+        position: absolute;
+        top: -18%;
+        left: 16%;
+    }
+
+    .text-second {
+        position: absolute;
+        top: 28%;
+        left: 12%;
+        font-size: 76px;
+    }
+
+    .reclam-text {
+        position: absolute;
+        top: 49%;
+        left: 10%;
+    }
+
+    .btn-first {
+        top: 67%;
+        left: 4%;
+    }
+
+}
+
+
+@media(max-width: 480px) {
+    .quation-text {
+        font-family: 'Jomhuria', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 210px;
+    margin-left: -60px;
+    text-shadow: 0px 0px 7px #22ECF3;
+}
+
+
+
+    .text-second {
+        font-family: 'Jomhuria', sans-serif;
+        font-size: 58px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 30px;
+        margin-left: -60px;
+        text-shadow: 0px 0px 7px #22ECF3;
+    }
+    
+
+    .reclam-text {
+        font-family: 'Jomhuria', sans-serif;
+        font-size: 57px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: -80px;
+        margin-left: -40px;
+        text-shadow: 0px 0px 7px #22ECF3;
+    }
+
+    .btn-first {
+        text-decoration: none;
+        color: black;
+        text-shadow: 0px 0px 7px #22ECF3;
+        font-size: 43px;
+        font-weight: 400;
+        background-color: rgba(255, 230, 0, 1);
+        width: 227px;
+        padding: 12px 27px;
+        margin-left: 110px;
+        position: absolute;
+        top: 81%;
+        padding-top: 21px;
+    }
+}
